@@ -19,7 +19,7 @@ Command-line utility for converting currencies using the [Open Exchange Rates AP
 
 ##Usage
 
-`curcon [amount] [from] [to]`
+`curcon [amount] [from] [to] [decimal-places]`
 
 For example, to convert 100 Canadian dollars to Japanese Yen:
 
@@ -38,3 +38,7 @@ Any valid currency code such as `CAD`. Defaults to `CAD`.
 ###`to` - String
 
 Any valid currency code such as `JPY`. Defaults to `JPY`.
+
+###`decimal-places` - Number
+
+The number of decimal places to round to. Defaults to `2`.

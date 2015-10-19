@@ -15,5 +15,6 @@ oxr.latest(function() {
   var amount = process.argv[2] || 1;
   var from = process.argv[3] && process.argv[3].toUpperCase() || 'CAD';
   var to = process.argv[4] && process.argv[4].toUpperCase() || 'JPY';
-  console.log(fx(amount).from(from).to(to).toFixed(2));
+  var decimalPlaces = process.argv[5] || 2;
+  console.log(fx(amount).from(from).to(to).toFixed(decimalPlaces));
 });
