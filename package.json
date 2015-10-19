@@ -1,6 +1,6 @@
 {
   "name": "curcon",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Command-line utility for converting currencies using the Open Exchange Rates API.",
   "main": "index.js",
   "directories": {
