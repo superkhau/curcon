@@ -1,8 +1,8 @@
-#curcon -- currency converter
+# curcon -- currency converter
 
 Command-line utility for converting currencies using the [Open Exchange Rates API](https://openexchangerates.org/).
 
-##Installation
+## Installation
 
 1. Install the app globally
 
@@ -17,7 +17,7 @@ Command-line utility for converting currencies using the [Open Exchange Rates AP
     export OPEN_EXCHANGE_RATES_APP_ID=...
     ```
 
-##Usage
+## Usage
 
 `curcon [amount] [from] [to] [decimal-places]`
 
@@ -27,18 +27,18 @@ For example, to convert 100 Canadian dollars to Japanese Yen:
 curcon 100 cad jpy // 92.32
 ```
 
-###`amount` - Number
+### `amount` - Number
 
 The amount to convert. Defaults to `1`.
 
-###`from` - String
+### `from` - String
 
 Any valid currency code such as `CAD`. Defaults to `CAD`.
 
-###`to` - String
+### `to` - String
 
 Any valid currency code such as `JPY`. Defaults to `JPY`.
 
-###`decimal-places` - Number
+### `decimal-places` - Number
 
 The number of decimal places to round to. Defaults to `2`.
