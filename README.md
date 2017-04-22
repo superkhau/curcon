@@ -23,8 +23,8 @@ export OPEN_EXCHANGE_RATES_APP_ID=...
 Convert 100 Canadian dollars to Japanese Yen:
 
 ```
-curcon 100 cad jpy 2
 # curcon amount from to round-to
+curcon 100 cad jpy 2
 ```
 
 - `amount: Number` The amount to convert. Defaults to 1.
