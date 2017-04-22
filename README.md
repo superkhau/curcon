@@ -8,11 +8,15 @@ Command-line utility for converting currencies using [Open Exchange Rates](https
 npm install -g curcon
 ```
 
-Export your Open Exchange Rates App ID in your startup file (`.bash_profile`, `.bashrc`, etc)
+## Configuration
+
+Export your Open Exchange Rates App ID in your startup file (`.bashrc`, `.bash_profile`, etc).
 
 ```
 export OPEN_EXCHANGE_RATES_APP_ID=...
 ```
+
+> Remember to source your startup file (`source ~/.bashrc`) or restart your terminal.
 
 ## Usage
 
