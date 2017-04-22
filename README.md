@@ -31,3 +31,7 @@ curcon 100 cad jpy 2
 - `from: String` Any valid currency code such as CAD. Defaults to CAD.
 - `to: String` Any valid currency code such as JPY. Defaults to JPY.
 - `round-to: Number` The number of decimal places to round to. Defaults to 2.
+
+# License
+
+MIT
