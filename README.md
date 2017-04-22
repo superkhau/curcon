@@ -20,7 +20,7 @@ export OPEN_EXCHANGE_RATES_APP_ID=...
 
 ## Usage
 
-To convert 100 Canadian dollars to Japanese Yen:
+Convert 100 Canadian dollars to Japanese Yen:
 
 ```
 curcon 100 cad jpy 2
