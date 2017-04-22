@@ -1,6 +1,6 @@
 # curcon -- currency converter
 
-Command-line utility for converting currencies using [Open Exchange Rates](https://openexchangerates.org/).
+Command-line tool for converting currencies using [Open Exchange Rates](https://openexchangerates.org/).
 
 ## Installation
 
