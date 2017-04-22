@@ -23,7 +23,7 @@ curcon 100 cad jpy 2
 # curcon amount from to round-to
 ```
 
-- `amount`: Number - The amount to convert. Defaults to 1.
-- `from`: String - Any valid currency code such as CAD. Defaults to CAD.
-- `to`: String - Any valid currency code such as JPY. Defaults to JPY.
-- `round-to`: Number - The number of decimal places to round to. Defaults to 2.
+- amount: Number - The amount to convert. Defaults to 1.
+- from: String - Any valid currency code such as CAD. Defaults to CAD.
+- to: String - Any valid currency code such as JPY. Defaults to JPY.
+- round-to: Number - The number of decimal places to round to. Defaults to 2.
