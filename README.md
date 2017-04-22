@@ -10,7 +10,7 @@ npm install -g curcon
 
 ## Configuration
 
-Export your Open Exchange Rates App ID in your startup file (`.bashrc`, `.bash_profile`, etc).
+Export your Open Exchange Rates App ID in your startup file (`~/.bashrc`, `~/.bash_profile`, etc).
 
 ```
 export OPEN_EXCHANGE_RATES_APP_ID=...
